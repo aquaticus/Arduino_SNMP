@@ -7,7 +7,7 @@
 
 typedef int (*GETINT_FUNC)() ;
 typedef uint32_t (*GETUINT_FUNC)();
-typedef const std::string (*GETSTRING_FUNC)();
+typedef std::string (*GETSTRING_FUNC)();
 
 class ValueCallback {
   public:
